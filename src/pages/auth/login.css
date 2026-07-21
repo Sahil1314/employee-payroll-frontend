@@ -1,0 +1,218 @@
+body{
+    margin:0;
+    font-family:Poppins,sans-serif;
+    background:#f4f7fc;
+}
+
+.login-page{
+
+    display:flex;
+    min-height:100vh;
+
+}
+
+/* LEFT */
+
+.login-left{
+
+    flex:1;
+    background:linear-gradient(135deg,#2563eb,#4f46e5);
+
+    color:white;
+
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+
+    padding:70px;
+
+}
+
+.login-left h1{
+
+    font-size:55px;
+    margin-bottom:10px;
+
+}
+
+.login-left h2{
+
+    font-size:32px;
+    margin-bottom:20px;
+
+}
+
+.login-left p{
+
+    font-size:18px;
+    line-height:30px;
+    max-width:450px;
+
+}
+
+.feature-list{
+
+    margin-top:40px;
+
+}
+
+.feature-list div{
+
+    margin:18px 0;
+    font-size:18px;
+
+}
+
+/* RIGHT */
+
+.login-right{
+
+    flex:1;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    background:white;
+
+}
+
+.login-card{
+
+    width:420px;
+
+}
+
+.login-card h2{
+
+    font-size:34px;
+    margin-bottom:5px;
+    color:#1f2937;
+
+}
+
+.subtitle{
+
+    color:#6b7280;
+    margin-bottom:35px;
+
+}
+
+.login-card label{
+
+    display:block;
+    font-weight:600;
+    margin-bottom:8px;
+    margin-top:18px;
+
+}
+
+.login-card input{
+
+    width:100%;
+
+    padding:15px;
+
+    border:1px solid #d1d5db;
+
+    border-radius:12px;
+
+    font-size:15px;
+
+    outline:none;
+
+    transition:.3s;
+
+}
+
+.login-card input:focus{
+
+    border-color:#2563eb;
+
+    box-shadow:0 0 0 3px rgba(37,99,235,.15);
+
+}
+
+.login-btn{
+
+    width:100%;
+
+    margin-top:30px;
+
+    padding:15px;
+
+    border:none;
+
+    border-radius:12px;
+
+    background:#2563eb;
+
+    color:white;
+
+    font-size:17px;
+
+    font-weight:bold;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+}
+
+.login-btn:hover{
+
+    background:#1d4ed8;
+
+    transform:translateY(-2px);
+
+}
+
+.footer{
+
+    text-align:center;
+
+    margin-top:35px;
+
+    color:#6b7280;
+
+    font-size:13px;
+
+}
+
+/* MOBILE */
+
+@media(max-width:900px){
+
+.login-page{
+
+    flex-direction:column;
+
+}
+
+.login-left{
+
+    text-align:center;
+    padding:40px;
+
+}
+
+.login-left h1{
+
+    font-size:42px;
+
+}
+
+.login-left h2{
+
+    font-size:24px;
+
+}
+
+.login-card{
+
+    width:90%;
+    margin:50px auto;
+
+}
+
+}
